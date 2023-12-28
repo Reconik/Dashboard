@@ -6,7 +6,7 @@
 
 В файле Test dashboard представлен тестовый код для вывода одного из графиков для представления анализа данных в графической форме. 
 
-### С помощью помощью команд устанавливаем все необходимые библиотеки:
+### С помощью команд устанавливаем все необходимые библиотеки:
 1.	pip install dash
 2.	pip install pandas
 3.	pip install dash dash-core-components dash-html-components pandas plotly
