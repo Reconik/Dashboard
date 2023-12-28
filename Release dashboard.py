@@ -23,7 +23,7 @@ app.layout = html.Div([
 
 
     html.Div([
-    html.H1('График рассеивания'),
+    html.H1('График рассеяния'),
         dcc.Graph(id='graph-with-slider'),
         dcc.Slider(
             0,
@@ -34,7 +34,7 @@ app.layout = html.Div([
             id='year-slider'
         )], style={'display': 'inline-lobck', 'width': '90%'}),
 
-    html.H1('Круговой и "временной график" по категории'),
+    html.H1('Круговой график по категории и отдельным товарам'),
     html.Div([
         html.P("Категория:"),
         dcc.Dropdown(id='names',
@@ -46,7 +46,7 @@ app.layout = html.Div([
     html.Div([dcc.Graph(id="piegraph"), ],
              style={'width': '60%', 'display': 'inline-block', 'padding': '0 20'}),
 
-    html.H1('Таблица для анализ данных о продажах товаров'),
+    html.H1('Таблица и диаграмма для анализ данных о продажах товаров'),
         dcc.Graph(
             id='sales-analysis',
             figure={
